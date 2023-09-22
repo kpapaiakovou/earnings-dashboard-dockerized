@@ -1,0 +1,71 @@
+{%load static %}
+{% load django_bootstrap5 %}
+
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{% bootstrap_messages %}
+
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reporting Dashboard</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand bg-dark" data-bs-theme="dark">
+          <div class="container-fluid h-100">
+                <div class="col-auto mr-auto">
+                    <a class="navbar-brand" href="{% url 'earnings' %}">
+                        <img class="h-75" src="{% static "img/orfium_white_bg_emblem_RGB.svg" %}">
+                        Reporting Dashboard
+                    </a>
+                </div>
+                <div class="col-auto">
+                    {% if request.user.is_authenticated %}
+                        <a href="#" tabindex="-1" class="btn btn-outline text-light">{{request.user}}</a>
+                        <a href="{% url 'logout' %}" class="btn btn-outline text-light">Logout</a>
+                    {% else %}
+                        <a href="{% url 'login' %}" class="btn btn-outline text-light">Login</a>
+                    {% endif %}
+                </div>
+            </div>
+        </nav>
+        <div class="row h-100 bg-light">
+            <div class="d-flex flex-column flex-shrink-0 p-3 col-2  bg-white h-100 border">
+                {% with url_name=request.resolver_match.url_name %}
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a href="{% url 'earnings' %}" class="nav-link {% if url_name == 'earnings' %}active{% else %}text-dark{% endif %}">Earnings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{% url 'royalties' %}" class="nav-link {% if url_name == 'royalties' %}active{% else %}text-dark{% endif %}">Royalty Balance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{% url 'billing' %}" class="nav-link {% if url_name == 'billing' %}active{% else %}text-dark{% endif %}">Billing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{% url 'reports' %}" class="nav-link {% if url_name == 'reports' %}active{% else %}text-dark{% endif %}">Reports</a>
+                    </li>
+                </ul>
+                {% endwith %}
+            </div>
+            <div class="d-flex col-10 bg-light p-0">
+                <main class="flex-row w-100">
+                    <div class="container">
+                        {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-{{message.tags}}">
+                                   {{message}}
+                                 </div>
+                               {% endfor %}
+                        {% endif %}
+                    </div>
+                     {%block content %}
+                     {%endblock content%}
+                </main>
+            </div>
+        </div>
+    </body>
+</html>

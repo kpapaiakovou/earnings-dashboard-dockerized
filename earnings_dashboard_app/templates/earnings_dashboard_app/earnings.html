@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load humanize %}
+
+{%block content%}
+    <div class="p-4">
+        <div class="container row p-0">
+            <h5>Your Earnings</h5>
+        </div>
+        <div class="container row card p-3">
+            <table class="table">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Period Ending</th>
+                        <th>Source</th>
+                        <th class="text-end">Total Earnings</th>
+                        <th class="text-end">Incremental Uplift</th>
+                        <th class="text-end">Service Fee</th>
+                        <th class="text-end">Currency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for earnings_entry in earnings_entries %}
+                        <tr>
+                            <td>{{ earnings_entry.balance_entry.date }}</td>
+                            <td>{{ earnings_entry.product.name }}</td>
+                            <td class="text-end">{{ earnings_entry.total_earnings|intcomma }}</td>
+                            <td class="text-end">{{ earnings_entry.incremental_earnings|intcomma }}</td>
+                            <td class="text-end">{{ earnings_entry.service_fee|intcomma }}</td>
+                            <td class="text-end">{{ earnings_entry.balance_entry.user_balance_account.currency.code }}</td>
+                        </tr>
+                    {% empty %}
+                        <td colspan="6" class="text-center">Nothing to show here yet</td>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% include "earnings_dashboard_app/pagination.html" %}
+        </div>
+    </div>
+{% endblock %}

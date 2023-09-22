@@ -1,0 +1,526 @@
+2023-08-06 11:00:54.697 EEST [21124] LOG:  starting PostgreSQL 12.15, compiled by Visual C++ build 1916, 64-bit
+2023-08-06 11:00:54.700 EEST [21124] LOG:  listening on IPv6 address "::1", port 5432
+2023-08-06 11:00:54.700 EEST [21124] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-08-06 11:00:54.726 EEST [3652] LOG:  database system was shut down at 2023-08-06 11:00:17 EEST
+2023-08-06 11:00:54.778 EEST [21124] LOG:  database system is ready to accept connections
+2023-08-06 11:53:52.866 EEST [21124] LOG:  received fast shutdown request
+2023-08-06 11:53:52.867 EEST [21124] LOG:  aborting any active transactions
+2023-08-06 11:53:52.889 EEST [21124] LOG:  background worker "logical replication launcher" (PID 13196) exited with exit code 1
+2023-08-06 11:53:52.891 EEST [7768] LOG:  shutting down
+2023-08-06 11:53:52.958 EEST [21124] LOG:  database system is shut down
+2023-08-06 12:04:28.276 EEST [12888] LOG:  starting PostgreSQL 12.15, compiled by Visual C++ build 1916, 64-bit
+2023-08-06 12:04:28.278 EEST [12888] LOG:  listening on IPv6 address "::1", port 5432
+2023-08-06 12:04:28.278 EEST [12888] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-08-06 12:04:28.304 EEST [11596] LOG:  database system was shut down at 2023-08-06 11:53:52 EEST
+2023-08-06 12:04:28.349 EEST [12888] LOG:  database system is ready to accept connections
+2023-08-06 14:54:42.851 EEST [12888] LOG:  received fast shutdown request
+2023-08-06 14:54:42.851 EEST [19296] ERROR:  canceling statement due to user request
+2023-08-06 14:54:42.863 EEST [12888] LOG:  aborting any active transactions
+2023-08-06 14:54:42.863 EEST [12408] FATAL:  terminating connection due to administrator command
+2023-08-06 14:54:42.872 EEST [12888] LOG:  background worker "logical replication launcher" (PID 19296) exited with exit code 1
+2023-08-06 14:54:42.888 EEST [20548] LOG:  shutting down
+2023-08-06 14:54:42.950 EEST [12888] LOG:  database system is shut down
+2023-08-06 14:56:12.193 EEST [6388] LOG:  starting PostgreSQL 12.15, compiled by Visual C++ build 1916, 64-bit
+2023-08-06 14:56:12.195 EEST [6388] LOG:  listening on IPv6 address "::1", port 5432
+2023-08-06 14:56:12.195 EEST [6388] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-08-06 14:56:12.222 EEST [19204] LOG:  database system was shut down at 2023-08-06 14:54:42 EEST
+2023-08-06 14:56:12.260 EEST [6388] LOG:  database system is ready to accept connections
+2023-08-06 15:03:24.886 EEST [20656] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:07:08.449 EEST [13768] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:07:15.289 EEST [5340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:10:21.659 EEST [11180] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:10:47.766 EEST [16584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:13:13.819 EEST [8128] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:15:44.882 EEST [9496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:17:05.561 EEST [324] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:18:56.090 EEST [2396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:19:55.710 EEST [5268] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:27:20.373 EEST [21292] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:27:26.183 EEST [19588] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:30:49.060 EEST [18548] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:32:35.466 EEST [18780] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:33:17.881 EEST [15992] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:34:04.485 EEST [11212] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:35:52.891 EEST [18888] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:36:44.402 EEST [15492] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:40:19.517 EEST [21876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 15:58:28.105 EEST [9604] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 16:27:05.176 EEST [18544] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 16:38:25.587 EEST [11804] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 16:40:15.856 EEST [7124] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 16:41:08.726 EEST [22256] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 16:44:21.878 EEST [5940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 16:45:39.350 EEST [22488] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 16:50:22.438 EEST [4788] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 16:51:09.186 EEST [16424] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 16:54:59.850 EEST [452] ERROR:  null value in column "invoice_ref" violates not-null constraint
+2023-08-06 16:54:59.850 EEST [452] DETAIL:  Failing row contains (1, 200000.00, 2023-07-31, null, null, 1).
+2023-08-06 16:54:59.850 EEST [452] STATEMENT:  INSERT INTO "earnings_dashboard_app_userbalanceentry" ("user_balance_id", "balance_amount", "date", "invoice_ref", "contract_ref") VALUES (1, 200000, '2023-07-31'::date, NULL, NULL) RETURNING "earnings_dashboard_app_userbalanceentry"."id"
+2023-08-06 16:55:16.348 EEST [7776] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 16:59:48.285 EEST [21420] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 17:04:56.047 EEST [18736] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 17:05:28.423 EEST [6372] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 17:06:57.823 EEST [15436] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 17:09:52.369 EEST [13788] ERROR:  column "total_earnings" of relation "earnings_dashboard_app_earningsbalanceentry" does not exist at character 76
+2023-08-06 17:09:52.369 EEST [13788] STATEMENT:  UPDATE "earnings_dashboard_app_earningsbalanceentry" SET "product_id" = 1, "total_earnings" = 1000000, "incremental_earnings" = 1000000, "service_fee" = 200000, "fee_type_ref" = NULL WHERE "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id" = 3
+2023-08-06 17:09:52.396 EEST [13788] ERROR:  column earnings_dashboard_app_earningsbalanceentry.total_earnings does not exist at character 139
+2023-08-06 17:09:52.396 EEST [13788] STATEMENT:  SELECT "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id", "earnings_dashboard_app_earningsbalanceentry"."product_id", "earnings_dashboard_app_earningsbalanceentry"."total_earnings", "earnings_dashboard_app_earningsbalanceentry"."incremental_earnings", "earnings_dashboard_app_earningsbalanceentry"."service_fee", "earnings_dashboard_app_earningsbalanceentry"."fee_type_ref" FROM "earnings_dashboard_app_earningsbalanceentry" LIMIT 21
+2023-08-06 17:09:52.396 EEST [13788] ERROR:  column earnings_dashboard_app_earningsbalanceentry.total_earnings does not exist at character 139
+2023-08-06 17:09:52.396 EEST [13788] STATEMENT:  SELECT "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id", "earnings_dashboard_app_earningsbalanceentry"."product_id", "earnings_dashboard_app_earningsbalanceentry"."total_earnings", "earnings_dashboard_app_earningsbalanceentry"."incremental_earnings", "earnings_dashboard_app_earningsbalanceentry"."service_fee", "earnings_dashboard_app_earningsbalanceentry"."fee_type_ref" FROM "earnings_dashboard_app_earningsbalanceentry" LIMIT 21
+2023-08-06 17:09:52.397 EEST [13788] ERROR:  column earnings_dashboard_app_earningsbalanceentry.total_earnings does not exist at character 139
+2023-08-06 17:09:52.397 EEST [13788] STATEMENT:  SELECT "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id", "earnings_dashboard_app_earningsbalanceentry"."product_id", "earnings_dashboard_app_earningsbalanceentry"."total_earnings", "earnings_dashboard_app_earningsbalanceentry"."incremental_earnings", "earnings_dashboard_app_earningsbalanceentry"."service_fee", "earnings_dashboard_app_earningsbalanceentry"."fee_type_ref" FROM "earnings_dashboard_app_earningsbalanceentry" WHERE "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id" = 3 LIMIT 21
+2023-08-06 17:09:52.397 EEST [13788] ERROR:  column earnings_dashboard_app_earningsbalanceentry.total_earnings does not exist at character 139
+2023-08-06 17:09:52.397 EEST [13788] STATEMENT:  SELECT "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id", "earnings_dashboard_app_earningsbalanceentry"."product_id", "earnings_dashboard_app_earningsbalanceentry"."total_earnings", "earnings_dashboard_app_earningsbalanceentry"."incremental_earnings", "earnings_dashboard_app_earningsbalanceentry"."service_fee", "earnings_dashboard_app_earningsbalanceentry"."fee_type_ref" FROM "earnings_dashboard_app_earningsbalanceentry" WHERE "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id" = 3 LIMIT 21
+2023-08-06 17:10:16.858 EEST [15380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 17:12:02.865 EEST [8424] ERROR:  column "total_earnings" of relation "earnings_dashboard_app_earningsbalanceentry" does not exist at character 76
+2023-08-06 17:12:02.865 EEST [8424] STATEMENT:  UPDATE "earnings_dashboard_app_earningsbalanceentry" SET "product_id" = 1, "total_earnings" = 1000000, "incremental_earnings" = 1000000, "service_fee" = 200000, "fee_type_ref" = '20% of incremental earnings' WHERE "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id" = 4
+2023-08-06 17:12:02.892 EEST [8424] ERROR:  column earnings_dashboard_app_earningsbalanceentry.total_earnings does not exist at character 139
+2023-08-06 17:12:02.892 EEST [8424] STATEMENT:  SELECT "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id", "earnings_dashboard_app_earningsbalanceentry"."product_id", "earnings_dashboard_app_earningsbalanceentry"."total_earnings", "earnings_dashboard_app_earningsbalanceentry"."incremental_earnings", "earnings_dashboard_app_earningsbalanceentry"."service_fee", "earnings_dashboard_app_earningsbalanceentry"."fee_type_ref" FROM "earnings_dashboard_app_earningsbalanceentry" LIMIT 21
+2023-08-06 17:12:02.893 EEST [8424] ERROR:  column earnings_dashboard_app_earningsbalanceentry.total_earnings does not exist at character 139
+2023-08-06 17:12:02.893 EEST [8424] STATEMENT:  SELECT "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id", "earnings_dashboard_app_earningsbalanceentry"."product_id", "earnings_dashboard_app_earningsbalanceentry"."total_earnings", "earnings_dashboard_app_earningsbalanceentry"."incremental_earnings", "earnings_dashboard_app_earningsbalanceentry"."service_fee", "earnings_dashboard_app_earningsbalanceentry"."fee_type_ref" FROM "earnings_dashboard_app_earningsbalanceentry" LIMIT 21
+2023-08-06 17:12:02.894 EEST [8424] ERROR:  column earnings_dashboard_app_earningsbalanceentry.total_earnings does not exist at character 139
+2023-08-06 17:12:02.894 EEST [8424] STATEMENT:  SELECT "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id", "earnings_dashboard_app_earningsbalanceentry"."product_id", "earnings_dashboard_app_earningsbalanceentry"."total_earnings", "earnings_dashboard_app_earningsbalanceentry"."incremental_earnings", "earnings_dashboard_app_earningsbalanceentry"."service_fee", "earnings_dashboard_app_earningsbalanceentry"."fee_type_ref" FROM "earnings_dashboard_app_earningsbalanceentry" WHERE "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id" = 4 LIMIT 21
+2023-08-06 17:12:02.894 EEST [8424] ERROR:  column earnings_dashboard_app_earningsbalanceentry.total_earnings does not exist at character 139
+2023-08-06 17:12:02.894 EEST [8424] STATEMENT:  SELECT "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id", "earnings_dashboard_app_earningsbalanceentry"."product_id", "earnings_dashboard_app_earningsbalanceentry"."total_earnings", "earnings_dashboard_app_earningsbalanceentry"."incremental_earnings", "earnings_dashboard_app_earningsbalanceentry"."service_fee", "earnings_dashboard_app_earningsbalanceentry"."fee_type_ref" FROM "earnings_dashboard_app_earningsbalanceentry" WHERE "earnings_dashboard_app_earningsbalanceentry"."user_balance_entry_id" = 4 LIMIT 21
+2023-08-06 17:12:41.257 EEST [3636] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 17:28:45.087 EEST [10760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:14:47.123 EEST [16988] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:15:38.669 EEST [22260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:15:53.495 EEST [17812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:23:00.266 EEST [20596] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:24:23.128 EEST [16608] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:24:58.012 EEST [22448] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:26:00.740 EEST [5948] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:28:03.402 EEST [9508] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:31:12.101 EEST [13068] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:46:02.929 EEST [12216] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:46:46.386 EEST [19336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:48:25.047 EEST [15896] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:51:35.692 EEST [16392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 19:52:57.548 EEST [11628] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 20:16:04.272 EEST [4368] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 20:18:32.738 EEST [10044] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 20:44:15.902 EEST [1740] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 20:47:23.690 EEST [5180] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 20:51:38.397 EEST [8876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 20:53:42.109 EEST [20600] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 20:56:20.385 EEST [16568] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:01:03.183 EEST [9828] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:03:53.000 EEST [5040] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:06:28.897 EEST [19912] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:07:23.316 EEST [12352] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:13:59.616 EEST [5512] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:17:37.376 EEST [3356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:18:25.750 EEST [19984] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:19:28.472 EEST [15808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:20:14.806 EEST [8588] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:32:36.548 EEST [8332] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:32:56.991 EEST [18184] ERROR:  null value in column "balance_amount" violates not-null constraint
+2023-08-06 21:32:56.991 EEST [18184] DETAIL:  Failing row contains (8, null, 2023-08-06, null, null, 1, , null).
+2023-08-06 21:32:56.991 EEST [18184] STATEMENT:  INSERT INTO "earnings_dashboard_app_userbalanceentry" ("user_balance_account_id", "balance_amount", "date", "invoice_ref", "contract_ref", "entry_type", "entry_detail") VALUES (1, NULL, '2023-08-06'::date, NULL, NULL, '', NULL) RETURNING "earnings_dashboard_app_userbalanceentry"."id"
+2023-08-06 21:33:31.622 EEST [11396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:37:24.921 EEST [23304] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:40:54.349 EEST [11504] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:41:46.326 EEST [8316] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:45:32.903 EEST [15864] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:49:36.286 EEST [21484] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:51:47.462 EEST [13480] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 21:52:15.726 EEST [17532] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 22:34:28.620 EEST [8904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 22:41:44.548 EEST [23128] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 22:43:24.395 EEST [2160] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 22:45:43.181 EEST [6904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 22:51:04.731 EEST [13796] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 22:52:34.526 EEST [11256] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 22:56:55.062 EEST [7976] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 22:59:32.211 EEST [3064] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 23:49:34.664 EEST [13456] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 23:53:02.434 EEST [9188] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 23:53:29.487 EEST [6816] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 23:53:39.279 EEST [12968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 23:54:06.257 EEST [10412] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 23:54:17.061 EEST [8288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-06 23:58:14.923 EEST [5932] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:00:47.725 EEST [13468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:01:43.163 EEST [22908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:02:52.962 EEST [19412] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:03:02.744 EEST [21236] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:11:31.440 EEST [18212] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:22:14.132 EEST [9296] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:24:51.022 EEST [19600] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:33:51.834 EEST [20036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:42:37.924 EEST [1840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:42:40.171 EEST [15544] ERROR:  null value in column "balance_displayed" violates not-null constraint
+2023-08-07 00:42:40.171 EEST [15544] DETAIL:  Failing row contains (1, 1, 1, 2, AR, 0.00, null, null).
+2023-08-07 00:42:40.171 EEST [15544] STATEMENT:  UPDATE "earnings_dashboard_app_userbalanceaccount" SET "user_id" = 2, "service_entity_id" = 1, "currency_id" = 1, "account_type" = 'AR', "balance_displayed" = NULL, "balance_reconciled" = NULL, "balance_all_entries" = 0.00 WHERE "earnings_dashboard_app_userbalanceaccount"."id" = 1
+2023-08-07 00:43:56.721 EEST [7936] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:45:31.622 EEST [8984] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:46:46.322 EEST [3556] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:49:21.381 EEST [5500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:54:54.785 EEST [21092] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:55:15.754 EEST [23456] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:56:01.422 EEST [9892] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 00:56:35.745 EEST [20392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:14:36.761 EEST [17904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:15:01.024 EEST [20316] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:15:41.866 EEST [15964] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:17:16.406 EEST [8260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:18:09.380 EEST [10824] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:28:08.079 EEST [11576] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:29:06.358 EEST [10584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:30:11.110 EEST [16200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:41:55.496 EEST [19652] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:45:17.563 EEST [5292] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:48:20.370 EEST [21956] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:51:28.733 EEST [18568] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:52:08.004 EEST [18636] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:52:13.073 EEST [10492] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:54:13.335 EEST [23360] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:55:10.829 EEST [18384] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:56:10.959 EEST [1504] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:56:48.784 EEST [2560] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 01:59:28.592 EEST [20360] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:00:04.469 EEST [22968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:01:26.868 EEST [2528] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:02:25.521 EEST [19212] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:03:39.745 EEST [5564] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:08:17.378 EEST [17836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:11:10.577 EEST [9884] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:11:37.924 EEST [5072] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:19:07.520 EEST [4916] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:22:34.464 EEST [14480] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:34:52.766 EEST [11708] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:35:21.863 EEST [5752] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:40:36.453 EEST [11736] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:43:43.453 EEST [22316] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:45:21.395 EEST [7400] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 02:46:27.614 EEST [19392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 09:54:14.022 EEST [22820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 14:38:56.407 EEST [24280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 14:40:29.567 EEST [15144] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 14:40:42.183 EEST [19052] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 14:40:54.102 EEST [26588] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 14:48:13.918 EEST [19900] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 14:51:03.242 EEST [19880] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:11:54.279 EEST [19616] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:13:33.121 EEST [25424] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:13:48.188 EEST [25288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:29:56.263 EEST [8928] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:32:27.062 EEST [23192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:34:14.554 EEST [8420] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:35:40.621 EEST [26340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:39:34.260 EEST [24392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:41:52.445 EEST [23768] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:42:44.074 EEST [11844] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:43:48.819 EEST [23368] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:45:51.711 EEST [9012] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:56:26.684 EEST [9864] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 15:56:58.112 EEST [22616] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 16:17:12.519 EEST [25948] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 16:17:40.670 EEST [2436] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 16:18:00.697 EEST [24932] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 16:18:24.363 EEST [3548] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 16:30:59.479 EEST [9024] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 22:35:13.555 EEST [23760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 22:35:34.686 EEST [3832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 22:35:52.622 EEST [12964] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-07 22:36:17.679 EEST [17228] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 01:42:28.501 EEST [13268] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 01:42:42.524 EEST [16776] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 01:42:55.543 EEST [9788] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 01:43:57.711 EEST [21280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 01:44:44.616 EEST [10748] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 10:13:59.116 EEST [7484] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 10:28:56.721 EEST [1340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 12:52:51.087 EEST [23936] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 13:12:54.015 EEST [11632] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 13:20:03.769 EEST [7280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 14:47:06.980 EEST [20160] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 14:52:42.400 EEST [22348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 14:59:50.197 EEST [27176] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 15:09:38.956 EEST [7272] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 15:27:09.047 EEST [3844] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 15:32:11.660 EEST [19596] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 15:44:05.763 EEST [22460] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 15:44:56.692 EEST [16228] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 15:46:38.474 EEST [21480] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 15:50:25.346 EEST [6580] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 15:52:06.411 EEST [9388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 15:53:37.908 EEST [8960] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 15:57:55.629 EEST [11956] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 16:04:01.692 EEST [9984] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 16:08:46.056 EEST [22736] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 16:17:27.080 EEST [18412] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 16:22:54.498 EEST [12736] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 16:23:17.666 EEST [22740] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 16:31:10.089 EEST [1248] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 16:34:34.409 EEST [11832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 16:35:48.365 EEST [27488] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 16:53:09.950 EEST [23064] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 16:55:03.558 EEST [22984] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 16:55:31.777 EEST [21368] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 17:15:15.450 EEST [3360] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-08 17:41:29.500 EEST [25172] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-08-09 09:17:15.579 EEST [20476] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-09-19 15:42:39.033 EEST [501000] LOG:  starting PostgreSQL 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-09-19 15:42:39.033 EEST [501000] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-19 15:42:39.040 EEST [501000] FATAL:  could not open lock file "/var/run/postgresql/.s.PGSQL.5432.lock": Permission denied
+2023-09-19 15:42:39.040 EEST [501000] LOG:  database system is shut down
+2023-09-19 15:43:57.608 EEST [501580] LOG:  starting PostgreSQL 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-09-19 15:43:57.608 EEST [501580] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-19 15:43:57.614 EEST [501580] FATAL:  could not open lock file "/var/run/postgresql/.s.PGSQL.5432.lock": Permission denied
+2023-09-19 15:43:57.614 EEST [501580] LOG:  database system is shut down
+2023-09-19 15:46:26.625 EEST [502229] LOG:  starting PostgreSQL 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-09-19 15:46:26.626 EEST [502229] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-19 15:46:26.632 EEST [502229] FATAL:  could not create lock file "/var/run/postgresql/.s.PGSQL.5432.lock": Permission denied
+2023-09-19 15:46:26.633 EEST [502229] LOG:  database system is shut down
+2023-09-19 15:50:46.809 EEST [502746] LOG:  starting PostgreSQL 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-09-19 15:50:46.809 EEST [502746] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-19 15:50:46.821 EEST [502746] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-09-19 15:50:46.847 EEST [502747] LOG:  database system was shut down at 2023-09-19 15:40:50 EEST
+2023-09-19 15:50:46.859 EEST [502746] LOG:  database system is ready to accept connections
+2023-09-19 15:51:58.353 EEST [502854] FATAL:  role "admin" does not exist
+2023-09-19 15:52:49.975 EEST [502963] FATAL:  lock file "postmaster.pid" already exists
+2023-09-19 15:52:49.975 EEST [502963] HINT:  Is another postmaster (PID 502746) running in data directory "/home/dakis/PycharmProjects/earnings_dashboard_project/postgres_db_dir"?
+2023-09-19 15:53:21.714 EEST [503068] LOG:  starting PostgreSQL 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-09-19 15:53:21.715 EEST [503068] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-19 15:53:21.726 EEST [503068] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-09-19 15:53:21.752 EEST [503069] LOG:  database system was interrupted; last known up at 2023-09-19 15:50:46 EEST
+2023-09-19 15:53:22.185 EEST [503069] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-09-19 15:53:22.192 EEST [503069] LOG:  redo starts at 0/164D718
+2023-09-19 15:53:22.192 EEST [503069] LOG:  invalid record length at 0/164D750: wanted 24, got 0
+2023-09-19 15:53:22.192 EEST [503069] LOG:  redo done at 0/164D718
+2023-09-19 15:53:22.234 EEST [503068] LOG:  database system is ready to accept connections
+2023-09-19 15:54:36.203 EEST [503225] LOG:  starting PostgreSQL 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-09-19 15:54:36.204 EEST [503225] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-19 15:54:36.210 EEST [503225] FATAL:  could not create lock file "/var/run/postgresql/.s.PGSQL.5432.lock": Permission denied
+2023-09-19 15:54:36.211 EEST [503225] LOG:  database system is shut down
+2023-09-19 16:07:53.606 EEST [504107] LOG:  starting PostgreSQL 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-09-19 16:07:53.607 EEST [504107] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-19 16:07:53.614 EEST [504107] FATAL:  could not create lock file "/var/run/postgresql/.s.PGSQL.5432.lock": Permission denied
+2023-09-19 16:07:53.614 EEST [504107] LOG:  database system is shut down
+2023-09-19 13:10:43.080 GMT [504326] LOG:  invalid value for parameter "dynamic_shared_memory_type": "windows"
+2023-09-19 13:10:43.080 GMT [504326] HINT:  Available values: posix, sysv, mmap.
+2023-09-19 16:10:43.081 EEST [504326] LOG:  invalid value for parameter "lc_messages": "English_United States.1252"
+2023-09-19 16:10:43.081 EEST [504326] LOG:  invalid value for parameter "lc_monetary": "English_United States.1252"
+2023-09-19 16:10:43.081 EEST [504326] LOG:  invalid value for parameter "lc_numeric": "English_United States.1252"
+2023-09-19 16:10:43.081 EEST [504326] LOG:  invalid value for parameter "lc_time": "English_United States.1252"
+2023-09-19 16:10:43.081 EEST [504326] FATAL:  configuration file "/home/dakis/PycharmProjects/earnings_dashboard_project/earnings_dashboard_db/postgresql.conf" contains errors
+2023-09-19 16:11:05.769 EEST [504351] LOG:  starting PostgreSQL 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-09-19 16:11:05.770 EEST [504351] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-19 16:11:05.776 EEST [504351] FATAL:  could not create lock file "/var/run/postgresql/.s.PGSQL.5432.lock": Permission denied
+2023-09-19 16:11:05.776 EEST [504351] LOG:  database system is shut down
+2023-09-22 17:34:08.834 EEST [739594] LOG:  starting PostgreSQL 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-09-22 17:34:08.835 EEST [739594] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2023-09-22 17:34:08.835 EEST [739594] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2023-09-22 17:34:08.835 EEST [739594] WARNING:  could not create listen socket for "localhost"
+2023-09-22 17:34:08.835 EEST [739594] FATAL:  could not create any TCP/IP sockets
+2023-09-22 17:34:08.835 EEST [739594] LOG:  database system is shut down

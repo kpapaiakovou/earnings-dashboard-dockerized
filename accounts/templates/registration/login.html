@@ -1,0 +1,28 @@
+{%extends 'base.html'%}
+
+{% load static %}
+{% load django_bootstrap5 %}
+
+{%block content%}
+<div class="row justify-content-md-center pt-5">
+    <div class="col-4">
+      <form method="post" class="card px-5 py-3" novalidate>
+        {% csrf_token %}
+        <div class="row justify-content-md-center mb-3">
+            <div class="col-8">
+            <img src="{% static "img/orfium_white_bg_stacked_logo_RGB.svg" %}">
+                </div>
+        </div>
+          {% for field in form %}
+              <div class="mb-3">
+              {% bootstrap_field field layout="inline" %}
+              </div>
+          {% endfor %}
+        <p class><a href="#" class="link-primary">Forgot Password?</a></p>
+          <input type="submit" value="Login" class="btn btn-primary">
+          <p class="mt-3">Don't have a account? <a href="#" class="link-primary">Sign Up</a></p>
+      </form>
+    </div>
+</div>
+
+{%endblock content%}

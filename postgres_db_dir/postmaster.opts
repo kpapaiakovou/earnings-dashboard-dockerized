@@ -1,0 +1,1 @@
+/usr/lib/postgresql/12/bin/postgres "-D" "/home/dakis/PycharmProjects/earnings_dashboard_project/postgres_db_dir"

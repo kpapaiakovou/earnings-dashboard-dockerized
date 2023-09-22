@@ -1,0 +1,32 @@
+version: '3.8'
+
+volumes:
+  postgres_db_data:
+
+
+services:
+  web:
+    image: earnings-dashboard-project
+    container_name: edp_web
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: unless-stopped
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+
+  db:
+    container_name: edp_db
+    image: postgres:14.5-alpine
+    command: ["postgres", "-c", "log_statement=all"]
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    env_file:
+      - ./.envs/.postgres
+    volumes:
+      - /postgres_db_data:/var/lib/postgresql/data

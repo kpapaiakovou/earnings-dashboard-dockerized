@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load humanize %}
+
+{%block content%}
+    <div class="p-4">
+        <div class="container row p-0">
+            <h5>Reports & Statements</h5>
+        </div>
+        <div class="container row card p-3">
+            <table class="table">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Period Ending</th>
+                        <th>Report Type</th>
+                        <th>Description</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user_report in user_reports %}
+                        <tr>
+                            <td>{{ user_report.date }}</td>
+                            <td>{{ user_report.report_type }}</td>
+                            <td>{{ user_report.description }}</td>
+                            <td><a href="{{ user_report.file.url }}" target="_blank">Download</a></td>
+                        </tr>
+                    {% empty %}
+                        <td colspan="4" class="text-center">Nothing to show here yet</td>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% include "earnings_dashboard_app/pagination.html" %}
+        </div>
+    </div>
+{% endblock %}

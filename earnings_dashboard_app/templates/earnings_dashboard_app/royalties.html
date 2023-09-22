@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load humanize %}
+
+{%block content%}
+    <div class="p-4">
+        <div class="container row p-0">
+            <h5>Your Royalty Balance: {{ current_balance|intcomma }}</h5>
+        </div>
+        <div class="container row card p-3">
+            <table class="table">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Date</th>
+                        <th>Transaction Type</th>
+                        <th>Description</th>
+                        <th class="text-end">Net Amount</th>
+                        <th class="text-end">Currency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for royalty_balance_entry in royalty_balance_entries %}
+                        <tr>
+                            <td>{{ royalty_balance_entry.date }}</td>
+                            <td>{{ royalty_balance_entry.get_entry_type_display }}</td>
+                            <td>{{ royalty_balance_entry.entry_detail }}</td>
+                            <td class="text-end">{{ royalty_balance_entry.amount|intcomma }}</td>
+                            <td class="text-end">{{ royalty_balance_entry.user_balance_account.currency.code }}</td>
+                        </tr>
+                    {% empty %}
+                        <td colspan="5" class="text-center">Nothing to show here yet</td>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% include "earnings_dashboard_app/pagination.html" %}
+        </div>
+    </div>
+{% endblock %}

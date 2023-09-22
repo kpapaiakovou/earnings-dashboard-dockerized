@@ -1,0 +1,79 @@
+#################################################################
+# to use Anaconda download and install Anaconda from anaconda.org
+#################################################################
+
+######################################################
+# clone and activate the environment from the yml file
+######################################################
+
+conda env create -f conda-environment.yml
+
+conda activate earnings_dashboard_project
+
+###############################################################################
+# or create and activate the environment with a custom name using the spec file
+###############################################################################
+
+conda env create --name myenvname conda-spec-file.txt
+
+conda activate myenvname
+
+##########################################################
+# or install dependencies to an existing conda environment
+##########################################################
+
+conda install --name myenvname --file conda-spec-file.txt
+
+###########################################################
+# or install python dependencies using pip
+# you will then also need to seperately install postgresql
+###########################################################
+
+pip install -r requirements.txt
+pip3 install -r requirements.txt
+
+###########################################################
+# setting up the database
+###########################################################
+
+####################################
+# create a base database locally
+####################################
+
+initdb -D postgres_db_dir
+
+##############################
+# now start the server modus/instance of postgres
+##############################
+
+pg_ctl -D postgres_db_dir -l logfile start
+
+## waiting for server to start.... done
+## server started
+
+# now the server is up
+
+
+####################################
+# create a non-superuser (more safety!)
+####################################
+
+createuser --encrypted --pwprompt admin
+# asks for name and password
+
+####################################
+# using this super user, create inner database inside the base database
+####################################
+
+createdb --owner=admin earnings_dashboard_db
+
+
+###############################################################################
+# run makemigrations and migrate to setup the db tables then load the test data
+###############################################################################
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py loaddata db.json

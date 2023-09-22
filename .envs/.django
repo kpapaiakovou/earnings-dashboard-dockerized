@@ -1,0 +1,12 @@
+DEBUG=1
+SECRET_KEY=foo
+DJANGO_ALLOWED_HOSTS="localhost 127.0.0.1 [::1]"
+SQL_ENGINE=django.db.backends.postgresql
+SQL_DATABASE=earnings_dashboard_db
+SQL_USER=admin
+SQL_PASSWORD=admin
+SQL_HOST=db
+SQL_PORT=5432
+DJANGO_SUPERUSER_USERNAME=space_oddity_team #  pragma: allowlist secret
+DJANGO_SUPERUSER_PASSWORD=space12345 #  pragma: allowlist secret
+DJANGO_SUPERUSER_EMAIL=space_oddity_team@orfium.com
